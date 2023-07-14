@@ -1,0 +1,334 @@
+{
+  "amaldagi_operator": {
+    "id": "javlon-abdumannopov",
+    "ism": "Javlon",
+    "familiya": "Abdumannopov"
+  },
+  "operatorlar": [
+    {
+      "id": "javlon-abdumannopov",
+      "ism": "Javlon",
+      "familiya": "Abdumannopov",
+      "parol": "12345678",
+      "telefon_raqam": "+99893)712-21-26",
+      "yashash_joyi": "Buloqboshi",
+      "operator_index": 1,
+      "faoliyat": true
+    },
+    {
+      "id": "olovuddin-falonchiyev",
+      "ism": "Olovuddin",
+      "familiya": "Falonchiyev",
+      "parol": "12345678",
+      "telefon_raqam": "+99890)123-45-56",
+      "yashash_joyi": "Jalaquduq",
+      "operator_index": 2,
+      "faoliyat": true
+    }
+  ],
+  "kunlar": [
+    {
+      "id": "14-july-2023_operator=javlon-abdumannopov",
+      "operator": {
+        "id": "javlon-abdumannopov",
+        "ism": "Javlon",
+        "familiya": "Abdumannopov"
+      },
+      "sana": {
+        "kun": 14,
+        "hafta_kuni": "Friday",
+        "oy": "July",
+        "yil": 2023
+      },
+      "kirim_chiqim": {
+        "nasiyalar": [
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          }
+        ],
+        "qaytarilgan_nasiyalar": [
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          }
+        ],
+        "zapravka_harajatlari": [
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          },
+          {
+            "ism": "",
+            "summa": ""
+          }
+        ],
+        "jami": {
+          "nasiyalar": 0,
+          "qaytarilgan_nasiyalar": 0,
+          "zapravka_harajatlari": 0
+        }
+      },
+      "sotib_olingan_mahsulot": {
+        "ai_80": 0,
+        "ai_92": 0,
+        "dizel": 0
+      },
+      "sotilgan_mahsulot": {
+        "ai_80": {
+          "narx": 0,
+          "miqdor": 0,
+          "summa": 0,
+          "hisoblagich": 0
+        },
+        "ai_92": {
+          "narx": 0,
+          "miqdor": 0,
+          "summa": 0,
+          "hisoblagich": 0
+        },
+        "dizel": {
+          "narx": 0,
+          "miqdor": 0,
+          "summa": 0,
+          "hisoblagich": 0
+        },
+        "umumiy_summa": 0
+      },
+      "qolgan_mahsulot": {
+        "ai_80": 0,
+        "ai_92": 0,
+        "dizel": 0
+      },
+      "plastik_terminal": {
+        "uzcard": 0,
+        "humo": 0
+      },
+      "naqd_pul": 0
+    }
+  ]
+}
