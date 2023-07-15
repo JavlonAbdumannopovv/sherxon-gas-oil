@@ -1,26 +1,17 @@
 const jsonServer = require('json-server');
-const express = require('express');
-const cors = require('cors');
-
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
-
-const app = express();
-
-// CORS ni sozlash
-app.use(cors());
-
-// JSON Server middleware larini ishlatish
-const middlewares = jsonServer.defaults();
-server.use(middlewares);
-
-// JSON Server routerini Express ilovasiga ulash
-app.use('/api', router);
-
-// Express ilovasini JSON Server bilan birlashtirish
-server.use(app);
-
-const port = process.env.PORT || 3001;
-server.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+const middlewares = jsonServer.defaults({
+  static: "./build"
 });
+const PORT = process.env.PORT || 3001;
+server.use(middlewares);
+server.use(jsonServer.rewriter({
+  '/api/*': '/$1',
+}))
+server.use(router);
+server.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
+
