@@ -1,4 +1,4 @@
-const { default: axios } = require("axios");
+import axios from "../../src/services/api";
 
 const response = await axios.get("/kunlar");
 exports.handler = async (event, context) => {
