@@ -11,7 +11,7 @@ import {
 
 function App() {
   const dispatch = useDispatch();
-  
+
   const getData = async () => {
     try {
       const days = await ApiService.getDays();
@@ -23,6 +23,10 @@ function App() {
     } catch (error) {
       console.log(error);
     }
+    fetch("/.netlify/functions/hello")
+      .then((response) => response.json())
+      .then((data) => console.log(data.message))
+      .catch((error) => console.error("Error:", error));
   };
 
   useEffect(() => {
@@ -35,7 +39,7 @@ function App() {
     <div className="w-[100%] bg-[#1A202C] pb-4">
       <Header />
       <main className="flex justify-between items-center">
-        <Main/>
+        <Main />
       </main>
     </div>
   );
