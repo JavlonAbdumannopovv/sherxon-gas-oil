@@ -307,41 +307,43 @@ const Configuration = ({ setDay }) => {
       },
     },
     sotib_olingan_mahsulot: {
-      ai_80: 0,
-      ai_92: 0,
-      dizel: 0,
+      ai_81: "",
+      ai_92: "",
+      dizel: "",
     },
     sotilgan_mahsulot: {
-      ai_80: {
-        narx: 0,
-        miqdor: 0,
-        summa: 0,
-        hisoblagich: 0,
+      ai_81: {
+        narx: "",
+        miqdor: "",
+        summa: ""
       },
       ai_92: {
-        narx: 0,
-        miqdor: 0,
-        summa: 0,
-        hisoblagich: 0,
+        narx: "",
+        miqdor: "",
+        summa: ""
       },
       dizel: {
-        narx: 0,
-        miqdor: 0,
-        summa: 0,
-        hisoblagich: 0,
+        narx: "",
+        miqdor: "",
+        summa: ""
       },
-      umumiy_summa: 0,
+      umumiy_summa: "",
     },
     qolgan_mahsulot: {
-      ai_80: 0,
-      ai_92: 0,
-      dizel: 0,
+      ai_81: "",
+      ai_92: "",
+      dizel: "",
     },
     plastik_terminal: {
-      uzcard: 0,
-      humo: 0,
+      uzcard: "",
+      humo: "",
     },
-    naqd_pul: 0,
+    naqd_pul: "",
+    hisoblagich: {
+      ai_81: "",
+      ai_92: "",
+      dizel: ""
+    }
   };
 
   const dispatch = useDispatch();

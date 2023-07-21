@@ -23,10 +23,6 @@ function App() {
     } catch (error) {
       console.log(error);
     }
-    fetch("/.netlify/functions/hello")
-      .then((response) => response.json())
-      .then((data) => console.log(data.message))
-      .catch((error) => console.error("Error:", error));
   };
 
   useEffect(() => {
@@ -36,7 +32,7 @@ function App() {
   }, []);
 
   return (
-    <div className="w-[100%] bg-[#1A202C] pb-4">
+    <div className="w-[1800px] mx-auto bg-[#1A202C] pb-4">
       <Header />
       <main className="flex justify-between items-center">
         <Main />
