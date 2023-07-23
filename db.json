@@ -323,7 +323,7 @@
       },
       "plastik_terminal": {
         "uzcard": "120000",
-        "humo": "130000"
+        "humo": "120000"
       },
       "naqd_pul": "128000",
       "hisoblagich": {
@@ -333,11 +333,11 @@
       }
     },
     {
-      "id": "21-july-2023_operator=javlon-abdumannopov",
+      "id": "21-july-2023_operator=olovuddin-falonchiyev",
       "operator": {
-        "id": "javlon-abdumannopov",
-        "ism": "Javlon",
-        "familiya": "Abdumannopov"
+        "id": "olovuddin-falonchiyev",
+        "ism": "Olovuddin",
+        "familiya": "Falonchiyev"
       },
       "sana": {
         "kun": 21,
@@ -599,12 +599,12 @@
         }
       },
       "sotib_olingan_mahsulot": {
-        "ai_80": "",
+        "ai_81": "",
         "ai_92": "",
         "dizel": ""
       },
       "sotilgan_mahsulot": {
-        "ai_80": {
+        "ai_81": {
           "narx": "",
           "miqdor": "",
           "summa": ""
@@ -622,7 +622,7 @@
         "umumiy_summa": ""
       },
       "qolgan_mahsulot": {
-        "ai_80": "",
+        "ai_81": "",
         "ai_92": "",
         "dizel": ""
       },
@@ -632,7 +632,7 @@
       },
       "naqd_pul": "",
       "hisoblagich": {
-        "ai_80": "",
+        "ai_81": "",
         "ai_92": "",
         "dizel": ""
       }

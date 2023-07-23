@@ -155,7 +155,7 @@ a {
 }
 
 .day_report_body > div {
-  border: 2px solid #fff !important;
+  border: 1px solid #fff !important;
 }
 
 .day_report_body .title h3 {
@@ -212,10 +212,6 @@ input[type="number"]::-webkit-inner-spin-button {
 .day_report_footer > div{
   border: 1px solid #fff;
   height: 100%;
-}
-
-.day_report_footer > div{
-  border: 2px solid #fff !important;
 }
 
 .day_report_footer .title{

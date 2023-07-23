@@ -186,6 +186,7 @@ const DayReport = ({ day, setDay }) => {
         };
       });
     }
+    setSaved(false);
   };
 
   const cashHandler = (value) => {
@@ -195,6 +196,7 @@ const DayReport = ({ day, setDay }) => {
         naqd_pul: value,
       };
     });
+    setSaved(false);
   };
 
   const residualHandler = (value, model) => {
@@ -616,7 +618,7 @@ const DayReport = ({ day, setDay }) => {
           {/*eslint-disable-next-line*/}
           <button
             disabled={saved}
-            className={`py-3 px-6 button ${saved && "active"}`}
+            className={`py-3 px-6 button ${saved && "active !cursor-default"}`}
             onClick={() => {
               savePage();
             }}
